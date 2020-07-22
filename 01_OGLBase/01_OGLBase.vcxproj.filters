@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{e8ce8de0-38f5-4f0b-8a66-6c32dd5e801c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL utilities">
+      <UniqueIdentifier>{4ff6a499-9726-4024-9125-cb3b3bce0fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{28dd15bc-57f1-4d1a-a7b0-1f36df3fc779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{581adb48-9367-41a3-957d-10cf46207945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Data">
+      <UniqueIdentifier>{acd59f41-0e2b-45d4-8d21-7a37fcfc1350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Chunk">
+      <UniqueIdentifier>{c7a0bd10-ce2d-48c8-a17f-2f3b2854e3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3daysBcsOfAByte">
+      <UniqueIdentifier>{bb6965d5-4f0b-4221-b50a-cadaf3568aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3DPerlin">
+      <UniqueIdentifier>{f456a2a8-e3a1-4042-88d4-dd5069d51cf9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="T:\OGLPack\include\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="T:\OGLPack\include\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="T:\OGLPack\include\imgui\imgui_impl_sdl_gl3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="T:\OGLPack\include\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\BufferObject.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\gCamera.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\GLconversions.hpp">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\GLUtils.hpp">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Mesh_OGL3.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ObjParser_OGL3.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ProgramObject.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ShaderObject.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\TextureObject.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\VertexArrayObject.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockData.h">
+      <Filter>src\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Directions.h">
+      <Filter>src\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>src\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkInit.h">
+      <Filter>src\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>src\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkMeshManager.h">
+      <Filter>src\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkManager.h">
+      <Filter>src\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFunctions.h">
+      <Filter>src\3daysBcsOfAByte</Filter>
+    </ClInclude>
+    <ClInclude Include="SimplexNoise.h">
+      <Filter>src\3DPerlin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="T:\OGLPack\include\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="T:\OGLPack\include\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="T:\OGLPack\include\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="T:\OGLPack\include\imgui\imgui_impl_sdl_gl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\GLconversions.cpp">
+      <Filter>GL utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\gCamera.cpp">
+      <Filter>GL utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ObjParser_OGL3.cpp">
+      <Filter>GL utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ProgramObject.cpp">
+      <Filter>GL utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ShaderObject.cpp">
+      <Filter>GL utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\VertexArrayObject.cpp">
+      <Filter>GL utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Mesh_OGL3.cpp">
+      <Filter>GL utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkMeshManager.cpp">
+      <Filter>src\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkManager.cpp">
+      <Filter>src\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFunctions.cpp">
+      <Filter>src\3daysBcsOfAByte</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplexNoise.cpp">
+      <Filter>src\3DPerlin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Includes\BufferObject.inl">
+      <Filter>GL utilities</Filter>
+    </None>
+    <None Include="Includes\ProgramObject.inl">
+      <Filter>GL utilities</Filter>
+    </None>
+    <None Include="Includes\TextureObject.inl">
+      <Filter>GL utilities</Filter>
+    </None>
+    <None Include="Includes\VertexArrayObject.inl">
+      <Filter>GL utilities</Filter>
+    </None>
+    <None Include="BasicFragment.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="BasicVertex.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="skybox.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="skybox.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="atlas.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
